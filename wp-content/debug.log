@@ -4,3 +4,9 @@
 [02-Apr-2025 21:48:10 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
 [02-Apr-2025 21:52:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
 [02-Apr-2025 21:52:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:13:30 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:13:30 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:14:37 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:14:37 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:16:34 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 22:16:34 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
