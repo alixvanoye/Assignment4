@@ -1,0 +1,6 @@
+[02-Apr-2025 20:00:59 UTC] PHP Warning:  Undefined array key "host" in /workspaces/Assignment4/.wordpress/wp-includes/pluggable.php on line 1625
+[02-Apr-2025 21:24:38 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/Assignment4/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[02-Apr-2025 21:48:10 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 21:48:10 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 21:52:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[02-Apr-2025 21:52:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
