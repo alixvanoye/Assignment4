@@ -6,3 +6,48 @@ Template:       twentytwentyfive
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+header.wp-block-template-part {
+    background-color: #f0f5f3; /* soft calming green-gray */
+    color: #2e2e2e;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Menu links in header */
+header .wp-block-navigation a {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header .wp-block-navigation a:hover {
+    color: #5c8a79; /* soft green hover color */
+    background-color: #e3ede9;
+    border-radius: 6px;
+}
+
+/* ---------- FOOTER STYLING ---------- */
+footer.wp-block-template-part {
+    background-color: #e8f1ee; /* gentle mint tone */
+    color: #3b4c4e;
+    padding: 30px 0;
+    font-size: 16px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    color: #3b4c4e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #5c8a79;
+    text-decoration: underline;
+}
