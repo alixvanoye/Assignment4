@@ -107,7 +107,12 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/sample-product-page/
+            http://localhost:8000/products/meditation-candles/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/stress-free-tea/
         </loc>
     </url>
     <url>
