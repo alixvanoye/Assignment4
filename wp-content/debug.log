@@ -154,3 +154,12 @@
 [03-Apr-2025 08:18:10 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/l10n.php on line 219
 [03-Apr-2025 08:18:14 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
 [03-Apr-2025 08:18:16 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:18:46 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/includes/ajax-actions.php on line 3912
+[03-Apr-2025 08:18:46 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/l10n.php on line 219
+[03-Apr-2025 08:18:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/includes/ajax-actions.php on line 3900
+[03-Apr-2025 08:18:47 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/l10n.php on line 219
+[03-Apr-2025 08:19:54 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:21:21 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:21:26 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:21:44 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:24:13 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 12288 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/class-wp-theme-json.php on line 1113
