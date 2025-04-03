@@ -150,3 +150,7 @@
 [03-Apr-2025 02:44:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/Assignment4/.wordpress/wp-settings.php:672) in /workspaces/Assignment4/.wordpress/wp-admin/includes/misc.php on line 1438
 [03-Apr-2025 02:44:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/Assignment4/.wordpress/wp-settings.php:672) in /workspaces/Assignment4/.wordpress/wp-includes/functions.php on line 7137
 [03-Apr-2025 02:44:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /workspaces/Assignment4/.wordpress/wp-settings.php:672) in /workspaces/Assignment4/.wordpress/wp-admin/admin-header.php on line 9
+[03-Apr-2025 08:18:10 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/includes/ajax-actions.php on line 3900
+[03-Apr-2025 08:18:10 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/l10n.php on line 219
+[03-Apr-2025 08:18:14 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
+[03-Apr-2025 08:18:16 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 114688 bytes) in /workspaces/Assignment4/.wordpress/wp-admin/menu.php on line 373
