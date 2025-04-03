@@ -337,6 +337,41 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/tag/mental-health-nutrition/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/healthy-grocery-list/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/mood-boosting-foods/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/brain-food/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/food-and-mood/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/gut-brain-connection/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/tag/foods-that-reduce-anxiety/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/author/alixvanoye/
         </loc>
     </url>
