@@ -22,11 +22,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/the-gut-brain-axis-how-your-digestive-system-affects-your-emotions/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/mood-boosting-foods-you-can-add-to-your-next-grocery-trip/
         </loc>
     </url>
@@ -48,11 +43,6 @@
     <url>
         <loc>
             http://localhost:8000/screens-dopamine-mental-fatigue-the-real-cost-of-scrolling/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/creating-a-mindful-tech-routine-without-going-off-grid/
         </loc>
     </url>
     <url>
@@ -93,21 +83,6 @@
     <url>
         <loc>
             http://localhost:8000/blog/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/products/mindful-journal/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/products/yoga-mat/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/products/meditation-cushion/
         </loc>
     </url>
     <url>
@@ -232,36 +207,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/tag/gut-health/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/microbiome/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/serotonin/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/digestion-and-mood/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/vagus-nerve/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/mind-body-connection/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/tag/breath-exercises/
         </loc>
     </url>
@@ -358,31 +303,6 @@
     <url>
         <loc>
             http://localhost:8000/tag/attention-span/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/mindful-tech-use/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/balanced-screen-time/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/digital-wellness/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/tech-routine/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/tag/sustainable-tech-habits/
         </loc>
     </url>
     <url>
