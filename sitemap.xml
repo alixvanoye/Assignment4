@@ -87,6 +87,31 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/mindful-journal/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/yoga-mat/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/meditation-cushion/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/sample-product-page/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/mindfulness-breathwork/
         </loc>
     </url>
