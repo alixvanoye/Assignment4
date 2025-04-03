@@ -22,11 +22,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/mental-health-and-adhd-how-i-made-peace-with-structure/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/the-gut-brain-axis-how-your-digestive-system-affects-your-emotions/
         </loc>
     </url>
@@ -128,11 +123,6 @@
     <url>
         <loc>
             http://localhost:8000/category/food-mood/
-        </loc>
-    </url>
-    <url>
-        <loc>
-            http://localhost:8000/category/routine-building-adhd/
         </loc>
     </url>
     <url>
