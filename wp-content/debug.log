@@ -10,3 +10,4 @@
 [02-Apr-2025 22:14:37 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
 [02-Apr-2025 22:16:34 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
 [02-Apr-2025 22:16:34 UTC] PHP Warning:  Attempt to read property "ID" on null in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 167
+[03-Apr-2025 00:45:05 UTC] PHP Fatal error:  Out of memory (allocated 31457280) (tried to allocate 4096 bytes) in /workspaces/Assignment4/.wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 908

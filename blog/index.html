@@ -56,6 +56,9 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 <style id='wp-block-post-date-inline-css'>
 .wp-block-post-date{box-sizing:border-box}
 </style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media (prefers-reduced-motion:no-preference){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull a,.wp-block-image.alignwide a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="https://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="https://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;-webkit-backdrop-filter:blur(16px) saturate(180%);backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;transition:opacity .2s ease;width:20px;z-index:100}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both;visibility:visible}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}@media (prefers-reduced-motion:no-preference){.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+</style>
 <style id='wp-block-post-template-inline-css'>
 .wp-block-post-template{list-style:none;margin-bottom:0;margin-top:0;max-width:100%;padding:0}.wp-block-post-template.is-flex-container{display:flex;flex-direction:row;flex-wrap:wrap;gap:1.25em}.wp-block-post-template.is-flex-container>li{margin:0;width:100%}@media (min-width:600px){.wp-block-post-template.is-flex-container.is-flex-container.columns-2>li{width:calc(50% - .625em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-3>li{width:calc(33.33333% - .83333em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-4>li{width:calc(25% - .9375em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-5>li{width:calc(20% - 1em)}.wp-block-post-template.is-flex-container.is-flex-container.columns-6>li{width:calc(16.66667% - 1.04167em)}}@media (max-width:600px){.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid{grid-template-columns:1fr}}.wp-block-post-template-is-layout-constrained>li>.alignright,.wp-block-post-template-is-layout-flow>li>.alignright{float:right;margin-inline-end:0;margin-inline-start:2em}.wp-block-post-template-is-layout-constrained>li>.alignleft,.wp-block-post-template-is-layout-flow>li>.alignleft{float:left;margin-inline-end:2em;margin-inline-start:0}.wp-block-post-template-is-layout-constrained>li>.aligncenter,.wp-block-post-template-is-layout-flow>li>.aligncenter{margin-inline-end:auto;margin-inline-start:auto}
 </style>
@@ -205,7 +208,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 	
 <div class="wp-block-query alignfull is-layout-flow wp-block-query-is-layout-flow">
-	<ul class="alignfull wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-62 post type-post status-publish format-standard hentry category-uncategorized">
+	<ul class="alignfull wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-62 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-balanced-screen-time tag-digital-wellness tag-mindful-tech-use tag-sustainable-tech-habits tag-tech-routine">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -344,7 +347,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:21:58-04:00"><a href="/Assignment4/creating-a-mindful-tech-routine-without-going-off-grid/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-60 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-60 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-attention-span tag-brain-fog tag-digital-overstimulation tag-dopamine-fatigue tag-screen-burnout">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -461,7 +464,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:21:24-04:00"><a href="/Assignment4/screens-dopamine-mental-fatigue-the-real-cost-of-scrolling/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-58 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-58 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-attention-reclaiming tag-dopamine-loop tag-healthy-tech-habits tag-phone-addiction tag-screen-time-boundaries">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -560,7 +563,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:21:02-04:00"><a href="/Assignment4/the-psychology-of-addiction-how-to-create-phone-boundaries/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-54 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-54 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-anxiety-tools tag-body-based-healing tag-nervous-system-healing tag-somatic-practices tag-vagus-nerve">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -677,7 +680,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:19:45-04:00"><a href="/Assignment4/vagus-nerve-activation-why-it-matters-for-your-anxiety/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-52 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-52 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-anxiety-science tag-breath-and-body tag-nervous-system-education tag-rest-and-digest tag-stress-response">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -790,7 +793,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:19:25-04:00"><a href="/Assignment4/understanding-the-parasympathetic-nervous-system/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-50 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-50 post type-post status-publish format-standard hentry category-food-mood tag-anxiety-science tag-breath-and-body tag-est-and-digest tag-nervous-system-education tag-stress-response">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -919,7 +922,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:19:06-04:00"><a href="/Assignment4/simple-breathing-techniques-you-can-do-anywhere/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-46 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-46 post type-post status-publish format-standard hentry category-food-mood category-nervous-system-mental-health tag-4-7-8-breathing tag-box-breathing tag-breath-exercises tag-calming-techniques tag-nervous-system-regulation">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1036,7 +1039,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:15:00-04:00"><a href="/Assignment4/anxiety-caffeine-are-your-coffee-habits-making-you-spiral/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-44 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-44 post type-post status-publish format-standard hentry category-food-mood">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1215,7 +1218,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:14:38-04:00"><a href="/Assignment4/mood-boosting-foods-you-can-add-to-your-next-grocery-trip/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-42 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-42 post type-post status-publish format-standard hentry category-food-mood tag-digestion-and-mood tag-gut-health tag-microbiome tag-mind-body-connection tag-serotonin tag-vagus-nerve">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1308,7 +1311,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:13:20-04:00"><a href="/Assignment4/the-gut-brain-axis-how-your-digestive-system-affects-your-emotions/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-36 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-36 post type-post status-publish format-standard hentry category-routine-building-adhd tag-adhd-friendly-routines tag-gentle-productivity tag-habit-building tag-mental-health-routine tag-self-compassion tag-tiny-wins">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1383,7 +1386,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T17:01:22-04:00"><a href="/Assignment4/mental-health-and-adhd-how-i-made-peace-with-structure/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-34 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-34 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-adhd-friendly-routines tag-gentle-productivity tag-habit-building tag-mental-health-routine tag-self-compassion tag-tiny-wins">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1472,7 +1475,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T16:59:13-04:00"><a href="/Assignment4/tiny-wins-why-your-routine-doesnt-have-to-be-perfect-to-work/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-32 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-32 post type-post status-publish format-standard hentry category-nervous-system-mental-health tag-emotional-self-care tag-healthy-habits tag-holistic-wellness tag-mental-health-foundation tag-sleep-nutrition-movement">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1551,7 +1554,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T16:57:21-04:00"><a href="/Assignment4/the-5-pillars-of-mental-health-and-how-to-build-a-routine-around-them/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-27 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-27 post type-post status-publish format-standard hentry category-mindfulness-breathwork tag-anxiety-relief tag-daily-rituals tag-mindful-habits tag-morning-routine tag-nervous-system-reset tag-slow-mornings">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1608,7 +1611,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T16:51:36-04:00"><a href="/Assignment4/mindful-mornings-how-i-changed-my-anxiety-in-10-minutes-a-day/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-25 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-25 post type-post status-publish format-standard hentry category-mindfulness-breathwork tag-breath-awareness tag-calm-habits tag-grounding-techniques tag-mindfulness-exercises tag-sensory-practices">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1697,7 +1700,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T16:50:29-04:00"><a href="/Assignment4/3-beginner-friendly-mindfulness-practices/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-23 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-23 post type-post status-publish format-standard hentry category-mindfulness-breathwork tag-beginner-friendly-mindfulness tag-easy-meditation tag-mindfulness-routine tag-no-pressure-self-care tag-self-compassion">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1756,7 +1759,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 			<div style="margin-top:var(--wp--preset--spacing--40);" class="wp-block-post-date has-small-font-size"><time datetime="2025-04-02T16:47:13-04:00"><a href="/Assignment4/how-to-start-a-mindfulness-practice-without-feeling-overwhelmed/">April 2025</a></time></div>
 		</div>
 		
-	</li><li class="wp-block-post post-20 post type-post status-publish format-standard hentry category-uncategorized">
+	</li><li class="wp-block-post post-20 post type-post status-publish format-standard hentry category-mindfulness-breathwork tag-amygdala tag-brain-health tag-meditation-science tag-mindfulness-benefits tag-neuroplasticity tag-stress-relief">
 		
 		<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			
@@ -1766,7 +1769,11 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">Mindfulness Calms the Amygdala: Your Brain’s Alarm System</h2>
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="980" height="980" src="/Assignment4/wp-content/uploads/2025/04/What-happens-to-your-brain.jpg" alt="" class="wp-image-105"/></figure>
+
+
+
+<h4 class="wp-block-heading">Mindfulness Calms the Amygdala: Your Brain’s Alarm System</h4>
 
 
 
@@ -1778,7 +1785,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">It Strengthens the Prefrontal Cortex: Your Inner CEO</h2>
+<h4 class="wp-block-heading">It Strengthens the Prefrontal Cortex: Your Inner CEO</h4>
 
 
 
@@ -1790,7 +1797,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">It Enhances the Hippocampus: Memory and Learning</h2>
+<h4 class="wp-block-heading">It Enhances the Hippocampus: Memory and Learning</h4>
 
 
 
@@ -1802,7 +1809,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">It Improves Brain Connectivity</h2>
+<h4 class="wp-block-heading">It Improves Brain Connectivity</h4>
 
 
 
@@ -1810,7 +1817,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">Final Thoughts: Rewiring, Not Just Relaxing</h2>
+<h4 class="wp-block-heading">Final Thoughts: Rewiring, Not Just Relaxing</h4>
 
 
 
@@ -1818,11 +1825,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 
 
 
-<h2 class="wp-block-heading">Ready to See the Benefits for Yourself?</h2>
-
-
-
-<p>Try one of our beginner-friendly mindfulness practices or read how mindfulness helped ease anxiety in just 10 minutes a day:</p>
+<h3 class="wp-block-heading"></h3>
 
 
 
